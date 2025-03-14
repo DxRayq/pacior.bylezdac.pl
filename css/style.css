@@ -1,0 +1,110 @@
+body{background-image:url(../images/tlo.jpg); background-size: 100%; background-attachment: fixed; color: white;  }
+*{margin: 0px; padding: 0px; }
+html{text-align: justify;  font-size: 1em;  line-height: 1.5em; word-spacing: 0.2em;}
+#pasek_nawigacyjny
+{
+    position: sticky;
+    top: 0;
+    padding: 15px;
+    margin: 1px 0;
+
+}
+#pasek_nawigacyjny a
+{
+   
+    text-decoration: none;
+    
+    
+    
+}
+#pasek_nawigacyjny > ul > li > a
+{
+    padding: 20px 35px;
+    margin-left: 1px;
+}
+
+#pasek_nawigacyjny ul
+{
+    list-style-type: none;
+}
+#pasek_nawigacyjny ul li
+{
+    display: inline-block;
+    margin-left: 10px;
+    position: relative;
+}
+.submenu
+{
+    position: absolute;
+    top: 40px;
+    display: none;
+}
+
+.submenu a {display: block; padding: 10px; text-align: center; width: 100px;}
+
+#pasek_nawigacyjny ul li:hover .submenu
+{
+    display: block;
+}
+.submenu::before
+{
+    content: '';
+    height: 10px;
+    width: 100%;
+    position: absolute;
+    top: -10px;
+}
+
+#pasek_nawigacyjny a:link,  a:visited {text-decoration: none; color:rgb(0, 0, 0); border: solid rgb(100, 148, 237); background-color: rgb(255, 255, 255);    }
+#pasek_nawigacyjny a:hover{color: rgb(252, 252, 252); text-decoration: none; background-color:rgb(100, 148, 237); opacity: 1;}
+
+
+#kontener{width: 1000px; box-sizing: border-box; margin: 0 auto;}
+#top{position: relative; background-color: rgba(149, 128, 243, 0.445); padding: 50px;  box-sizing: border-box; }
+#middle{ padding: 50px; overflow: hidden;}
+
+h1{ display: block; text-align: center; font-size: 4em;}
+h2{font-size: 3em; margin: 50px;}
+.postacie_powiększenie{font-size: 2.5em; margin: 30px;}
+.tytul_odc{margin: 20px 10px 0px 10px; font-size: 1.5em;}
+table{margin: 10px; border: 1px solid black; border-collapse: collapse;}
+table td {border: 1px solid black; padding: 1%; }
+ table th  {  padding: 5px; font-size:  24px; border: 1px solid black;}
+ .top_10 {padding: 5px; font-size:  24px;}
+ a:visited{color: rgb(166, 166, 247); text-decoration: none;}
+ a:link{color: rgb(225, 247, 100); text-decoration: none;}
+ a:hover{color: rgb(255, 0, 0); text-decoration: none;}
+ img{margin-top: 10px ;}
+#nawigacjia a:link, #nawigacjia a:visited {text-decoration: none; color:black; border: solid cornflowerblue; background-color: white; padding: 10px; display: inline-block;  }
+#nawigacjia a:hover{color: rgb(252, 252, 252); text-decoration: none; background-color:cornflowerblue;}
+.nawigacjia_center{margin: 0px;}
+#nawigacjia ul{  list-style-image: url("../podpunkty_zdj/zdzisiu_podpunkt.png")  ; margin-left: 50px;}
+a img {opacity: 0.8; }
+a img:hover{opacity: 1; }
+[data-powiedzonko_zdzisia]{cursor: help; text-decoration: underline; text-decoration-color: rgb(169, 206, 169); }
+[data-powiedzonko_zdzisia]:hover::after{content: attr(data-powiedzonko_zdzisia); color: rgb(0, 0, 0); background-color: rgba(182, 231, 215, 0.932); padding: 15px; border-radius: 10px; position: absolute; text-align: center; font-size: 1em;}
+.doza_litera{text-transform: capitalize}
+.doza_litera_na_poczatku{font-size: 1.5em;}
+legend{font-size: 1.5em;}
+fieldset{margin: 50px 0px;}
+.aktorzy{font-size: 2em; margin: 30px 0px;}
+#kontener_zdzisia{position: relative;  width: 400px; height: 300px; }
+#kontener_zdzisia {position:absolute; margin-left: 500px; }
+
+#kontener_benia{position: relative;  width: 400px; height: 300px; }
+#kontener_benia {position:absolute; margin-left: 500px;  }
+
+#obrazek{ float: right;}
+
+#kontener_artura{position: relative;  width: 400px; height: 300px;}
+#kontener_artura {position:absolute; margin-left: 500px;}
+
+#kontener_nowego{position: relative;  width: 400px; height: 300px;}
+#kontener_nowego  {position:absolute; margin-left: 500px;}
+
+#poczatek{position: fixed; right: 10px; bottom: 10px; background-color: black; padding: 20px; text-decoration: none; color: azure; opacity: 0.5; border-radius: 10px; z-index: 1;}
+#poczatek:hover{opacity: 1;}
+#footer{background-color: bisque; padding: 20px;}
+#cookes_massage{background-color: rgba(0, 0, 255, 0.473); padding: 20px; position: fixed; bottom: 0;  width: 100%;}
+#cookes_massage div{width: 70%; margin: 0 auto; }
+body div{margin-bottom: 25px;}
